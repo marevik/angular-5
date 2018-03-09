@@ -2,9 +2,9 @@ import { Component } from "@angular/core";
 
 @Component({
     selector:'app-first',
-    templateUrl:'.first.cpmponent.html',
-    styleUrls:'./first.component'
+    templateUrl:'./first.component.html',
+    styleUrls:['./first.component.css']
 })
 export class FirstComponent{
-    
+
 }
