@@ -1,0 +1,39 @@
+.header{
+    background-color: grey;
+    color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.header_nav{
+    border: 1px solid white;
+    width: 25%;
+    height: auto;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.header_nav:hover{
+    opacity: 0.5;
+    transition:1s;
+}
+
+/*----------------- main ---------------------*/
+.main{
+    display: flex;
+}
+
+.main_column{
+    width:75%;
+    background-color: blueviolet;
+    min-height: 100px;
+    text-align: center;
+}
+.right_column{
+    width: 25%;
+    background-color: aqua;
+    min-height: 100px;
+    text-align: center;
+}
